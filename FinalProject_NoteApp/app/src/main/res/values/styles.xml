@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <!-- edit these for final project-->
+    <style name="main">
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:fontFamily">monospace</item>
+
+    </style>
+    <style name="gallery" parent="main">
+        <item name="android:buttonTint">@color/white</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+
+</resources>

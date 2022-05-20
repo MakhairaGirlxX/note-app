@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Gallery">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="149dp"
+        android:layout_height="69dp"
+        android:fontFamily="monospace"
+        android:onClick="setImage"
+        android:text="@string/set_image"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="411dp"
+        android:layout_height="736dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/choose_an_image"
+                android:textColor="@color/white"
+                android:textSize="@dimen/image_header"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/green"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/gradient" />
+
+            <RadioButton
+                android:id="@+id/default_green"
+                android:checked="false"
+                android:text="@string/default_green"
+                style="@style/gallery"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/black_img"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/black"
+                tools:ignore="ImageContrastCheck" />
+
+            <RadioButton
+                android:id="@+id/black"
+                android:buttonTint="@color/white"
+                android:text="@string/black"
+                style="@style/gallery" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/orange_img"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/orange" />
+
+            <RadioButton
+                android:id="@+id/orange"
+                android:text="@string/orange"
+                style="@style/gallery"/>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/purple_img"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/purpleblack" />
+
+            <RadioButton
+                android:id="@+id/purple"
+                android:text="@string/purple"
+                tools:ignore="TextContrastCheck"
+                style="@style/gallery"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/blue_img"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/blue" />
+
+            <RadioButton
+                android:id="@+id/blue"
+                android:text="@string/blue"
+                style="@style/gallery" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/red_img"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/red" />
+
+            <RadioButton
+                android:id="@+id/red"
+                android:text="@string/red"
+                style="@style/gallery"/>
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/purple_orange_img"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/redpurple" />
+
+            <RadioButton
+                android:id="@+id/purple_orange"
+                android:text="@string/purple_orange"
+                style="@style/gallery" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/blue_pink_img"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tech" />
+
+            <RadioButton
+                android:id="@+id/blue_pink"
+                android:text="@string/blue_pink"
+                style="@style/gallery" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/stars_img"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/stars" />
+
+            <RadioButton
+                android:id="@+id/stars"
+                android:text="@string/stars"
+                style="@style/gallery" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:contentDescription="@string/red_hex_img"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/redhex" />
+
+            <RadioButton
+                android:id="@+id/red_black"
+                android:text="@string/red_black"
+                style="@style/gallery" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

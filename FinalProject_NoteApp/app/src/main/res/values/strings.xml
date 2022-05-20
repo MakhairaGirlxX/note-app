@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FinalProject_NoteApp</string>
+    <string name="defaultimage">defaultimage</string>
+    <string name="customnote">CustomNote</string>
+    <string name="select_theme">Select Theme</string>
+    <string name="add_btn">+</string>
+    <string name="search">TODO</string>
+    <string name="update">update</string>
+    <string name="set_image">Set Image</string>
+    <string name="choose_an_image">Choose an Image</string>
+    <string name="default_green">Default Green</string>
+    <string name="black">Black</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Purple</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="purple_orange">Purple Orange</string>
+    <string name="blue_pink">Blue Pink</string>
+    <string name="stars">Stars</string>
+    <string name="red_black">Red Black</string>
+    <string name="green">green</string>
+    <string name="black_img">black_img</string>
+    <string name="orange_img">orange_img</string>
+    <string name="purple_img">purple_img</string>
+    <string name="blue_img">blue_img</string>
+    <string name="red_img">red_img</string>
+    <string name="purple_orange_img">purple_orange_img</string>
+    <string name="blue_pink_img">blue_pink_img</string>
+    <string name="stars_img">stars_img</string>
+    <string name="red_hex_img">red_hex_img</string>
+    <string name="delete">delete</string>
+    <string name="back">back</string>
+    <string name="info">info</string>
+    <string name="search_btn">Search</string>
+    <string name="save">save</string>
+
+    <string-array name="sort">
+        <item>Sort Alphabetically</item>
+        <item>Sort by Most Recent</item>
+        <item>Sort by Color</item>
+    </string-array>
+</resources>

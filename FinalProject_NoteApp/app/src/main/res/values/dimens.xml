@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="plus_btn">28sp</dimen>
+    <dimen name="notes">18sp</dimen>
+    <dimen name="note_header">22sp</dimen>
+    <dimen name="image_header">30sp</dimen>
+</resources>
